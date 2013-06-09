@@ -1,0 +1,4 @@
+sites/*/files
+sites/*/settings.php
+sites/*/*.settings.php
+
