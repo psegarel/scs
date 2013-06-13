@@ -1,0 +1,9 @@
+sites/*/files
+sites/default/files
+
+sites/*/settings.php
+sites/default/settings.php
+sites/*/*.settings.php
+
+files
+
