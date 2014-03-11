@@ -492,7 +492,7 @@ function views_check_perm($perm, $account = NULL) {
 
 /**
  * Access callback for the views_plugin_access_role access plugin.
-
+ *
  * Determine if the specified user has access to a view on the basis of any of
  * the requested roles. If the $account argument is omitted, the current user
  * is used.
