@@ -1,0 +1,3 @@
+name = Node Transfer
+description = Custom modules to transfer the Nodes to Drupal & version
+core = 6.x
