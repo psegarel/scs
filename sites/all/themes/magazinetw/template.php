@@ -22,9 +22,9 @@ function magazinetw_preprocess_html(&$variables) {
 	drupal_add_css(base_path().path_to_theme().'/css/style320_mobile.css', array('type' => 'external'));
 	
 	drupal_add_css(base_path().path_to_theme().'/css/custom_css.css', array('type' => 'external'));
-	drupal_add_css('http://fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C300italic%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic&#038;subset=latin%2Clatin-ext%2Cgreek%2Cgreek-ext%2Cvietnamese%2Ccyrillic%2Ccyrillic-ext&#038;ver=3.9.1', array('type' => 'external'));
-	drupal_add_css("http://fonts.googleapis.com/css?family=Open+Sans+Condensed%3A300%2C300italic%2C700&#038;subset=latin%2Ccyrillic-ext%2Clatin-ext%2Ccyrillic%2Cgreek-ext%2Cgreek%2Cvietnamese&#038;ver=3.9.1");
-	drupal_add_css('http://fonts.googleapis.com/css?family=Roboto+Slab%3A400%2C100%2C300%2C700&#038;subset=latin%2Ccyrillic-ext%2Clatin-ext%2Ccyrillic%2Cgreek-ext%2Cgreek%2Cvietnamese&#038;ver=3.9.1');
+	// drupal_add_css('http://fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C300italic%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic&#038;subset=latin%2Clatin-ext%2Cgreek%2Cgreek-ext%2Cvietnamese%2Ccyrillic%2Ccyrillic-ext&#038;ver=3.9.1', array('type' => 'external'));
+	// drupal_add_css("http://fonts.googleapis.com/css?family=Open+Sans+Condensed%3A300%2C300italic%2C700&#038;subset=latin%2Ccyrillic-ext%2Clatin-ext%2Ccyrillic%2Cgreek-ext%2Cgreek%2Cvietnamese&#038;ver=3.9.1");
+	// drupal_add_css('http://fonts.googleapis.com/css?family=Roboto+Slab%3A400%2C100%2C300%2C700&#038;subset=latin%2Ccyrillic-ext%2Clatin-ext%2Ccyrillic%2Cgreek-ext%2Cgreek%2Cvietnamese&#038;ver=3.9.1');
 	
 	
 	//Skin default
