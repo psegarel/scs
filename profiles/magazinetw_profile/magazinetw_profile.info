@@ -1,0 +1,11 @@
+name = Magazine2
+description = Install profile for Magazine2 themes
+version = VERSION
+core = 7.x
+
+files[] = magazinetw_profile.profile
+
+version = "7.x-1.0-beta1"
+core = "7.x"
+project = "Magazine2"
+datestamp = "1365027012"
