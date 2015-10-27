@@ -1,0 +1,67 @@
+body {
+	background: $backgroundColor;
+}
+
+// body.front {
+// 	.node {
+// 		display: none;
+// 	}
+// }
+
+#top-header {
+	min-height: 20px;
+}
+
+.main-container {
+	padding-top: 15px;
+	padding-bottom: 60px;
+}
+
+.leaderboard {
+	.container {
+		background: $color1;
+		// padding-top: 5px;
+		// padding-bottom: 5px;
+	}
+
+	#leaderboard {
+		display: block;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		min-width: 728px;
+		min-height: 90px;
+		background: #eee;
+	}
+}
+
+// BLOCKS
+.block {
+	.views-row {
+		margin-bottom: 30px;
+	}
+}
+
+#block-views-frontpage-views-top-news {
+	padding: 10px;
+	background: #fff;
+	
+	.views-field-title {
+		@include standardTitle( #000 , $color1 );
+	}
+}
+
+#block-views-frontpage-views-features {
+	padding: 10px;
+	background: $color1;
+	color: rgba(255, 255 , 255 , .6);
+	
+	.views-field-title {
+		@include standardTitle( #fff , #000 );
+	}
+
+	.views-field-changed ,
+	.views-field-body {
+		margin: 10px 0;
+	}
+
+}

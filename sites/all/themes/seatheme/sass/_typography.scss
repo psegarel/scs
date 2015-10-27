@@ -1,0 +1,30 @@
+body {
+	font-family: $mainFont;
+}
+
+h1.page-header {
+	font-family: $boldTitleFont;
+}
+
+h2.block-title {
+	font-family: $titleFont;
+	text-transform: uppercase;
+	font-size: 18px;
+	border-bottom: 1px solid rgba(255,255,255 , .6);
+	padding-bottom: 10px
+}
+
+ul.menu {
+	font-family: $titleFont;
+	font-weight: normal;
+}
+
+a.name.navbar-brand {
+	color: #fff;
+	text-transform : uppercase;
+	text-align: center;
+	font-weight: normal;
+	font-size: 28px;
+	padding: 1.5em;
+	line-height: 140%;
+}

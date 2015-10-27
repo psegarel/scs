@@ -1,0 +1,55 @@
+name = Sea Theme
+description = A Bootstrap Sub-theme.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;regions[header_top_left] 	=	'Header Top Left' 
+regions[header_top_right] 	=	'Header Top Right' 
+regions[leaderboard]		= 	'Leaderboard'
+regions[navigation]     	= 	'Navigation'
+regions[header]         	= 	'Top Bar'
+regions[highlighted]    	= 	'Highlighted'
+regions[help]           	= 	'Help'
+regions[content]        	= 	'Content'
+regions[sidebar_first]  	= 	'Sidebar First'
+regions[sidebar_second] 	= 	'Sidebar Second'
+regions[footer]         	= 	'Footer'
+
+regions[page_top]       	= 	'Page top'
+regions[page_bottom]    	= 	'Page bottom'
+
+regions[hidden]				= 	"Hidden Content"
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = bower_components/bootstrap/dist/css/bootstrap.min.css
+stylesheets[all][] = css/style.css
+
+
+; For information on choosing the desired method, please read the Drupal
+; Bootstrap sub-theme "how-to" documentation:
+; https://drupal.org/node/1978010
+
+; ;----------------------------------
+; ; METHOD 1: Bootstrap Source Files
+; ;----------------------------------
+; 
+; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; ;; Scripts
+; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; 
+; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
+settings[bootstrap_cdn] = ''
+scripts[] = bower_components/bootstrap/dist/js/bootstrap.min.js
+
+
+
+

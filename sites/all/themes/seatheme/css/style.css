@@ -1,0 +1,289 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lato Bold"), local("Lato-Bold"), url(../fonts/google/lato/rZPI2gHXi8zxUjnybc2ZQFKPGs1ZzpMvnHX-7fPOuAc.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lato Bold"), local("Lato-Bold"), url(../fonts/google/lato/MgNNr5y1C_tIEuLEmicLmwLUuEpTyoUstqEm5AMlJo4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Lato Black"), local("Lato-Black"), url(../fonts/google/lato/t85RP2zhSdDjt5PhsT_SnlKPGs1ZzpMvnHX-7fPOuAc.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Lato Black"), local("Lato-Black"), url(../fonts/google/lato/lEjOv129Q3iN1tuqWOeRBgLUuEpTyoUstqEm5AMlJo4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot");
+  src: url("../bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff") format("woff"), url("../bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: local("Raleway ExtraLight"), local("Raleway-ExtraLight"), url(../fonts/google/raleway/8KhZd3VQBtXTAznvKjw-kwzyDMXhdD8sAj6OAJTFsBI.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Raleway Light"), local("Raleway-Light"), url(../fonts/google/raleway/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Raleway"), url(../fonts/google/raleway/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans"), local("PTSans-Regular"), url(../fonts/google/ptsans/oysROHFTu1eTZ74Hcf8V-VKPGs1ZzpMvnHX-7fPOuAc.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans"), local("PTSans-Regular"), url(../fonts/google/ptsans/CWlc_g68BGYDSGdpJvpktgLUuEpTyoUstqEm5AMlJo4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* line 1, ../sass/_colors.scss */
+.navbar-default {
+  background: #e5e5e5;
+}
+
+/* line 5, ../sass/_colors.scss */
+.main-container {
+  background: #f5f5f5;
+}
+
+/* line 9, ../sass/_colors.scss */
+footer {
+  background: #5a7ea0;
+}
+
+/* line 1, ../sass/_typography.scss */
+body {
+  font-family: Raleway, sans-serif;
+}
+
+/* line 5, ../sass/_typography.scss */
+h1.page-header {
+  font-family: "Lato", sans-serif;
+}
+
+/* line 9, ../sass/_typography.scss */
+h2.block-title {
+  font-family: "PT Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  padding-bottom: 10px;
+}
+
+/* line 17, ../sass/_typography.scss */
+ul.menu {
+  font-family: "PT Sans", sans-serif;
+  font-weight: normal;
+}
+
+/* line 22, ../sass/_typography.scss */
+a.name.navbar-brand {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  font-size: 28px;
+  padding: 1.5em;
+  line-height: 140%;
+}
+
+/* line 1, ../sass/_structure.scss */
+body {
+  background: #e5e5e5;
+}
+
+/* line 11, ../sass/_structure.scss */
+#top-header {
+  min-height: 20px;
+}
+
+/* line 15, ../sass/_structure.scss */
+.main-container {
+  padding-top: 15px;
+  padding-bottom: 60px;
+}
+
+/* line 21, ../sass/_structure.scss */
+.leaderboard .container {
+  background: #5a7ea0;
+}
+/* line 27, ../sass/_structure.scss */
+.leaderboard #leaderboard {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-width: 728px;
+  min-height: 90px;
+  background: #eee;
+}
+
+/* line 39, ../sass/_structure.scss */
+.block .views-row {
+  margin-bottom: 30px;
+}
+
+/* line 44, ../sass/_structure.scss */
+#block-views-frontpage-views-top-news {
+  padding: 10px;
+  background: #fff;
+}
+/* line 48, ../sass/_structure.scss */
+#block-views-frontpage-views-top-news .views-field-title {
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  padding: 10px 0;
+}
+/* line 16, ../sass/_variables.scss */
+#block-views-frontpage-views-top-news .views-field-title a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 20, ../sass/_variables.scss */
+#block-views-frontpage-views-top-news .views-field-title a:hover {
+  color: #5a7ea0;
+}
+
+/* line 53, ../sass/_structure.scss */
+#block-views-frontpage-views-features {
+  padding: 10px;
+  background: #5a7ea0;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* line 58, ../sass/_structure.scss */
+#block-views-frontpage-views-features .views-field-title {
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  padding: 10px 0;
+}
+/* line 16, ../sass/_variables.scss */
+#block-views-frontpage-views-features .views-field-title a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 20, ../sass/_variables.scss */
+#block-views-frontpage-views-features .views-field-title a:hover {
+  color: #000;
+}
+/* line 62, ../sass/_structure.scss */
+#block-views-frontpage-views-features .views-field-changed,
+#block-views-frontpage-views-features .views-field-body {
+  margin: 10px 0;
+}
+
+/* line 3, ../sass/_carousel.scss */
+#frontpage-slideshow .carousel-inner {
+  position: relative;
+}
+/* line 6, ../sass/_carousel.scss */
+#frontpage-slideshow .carousel-inner .views-field-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  padding: 5px 20px;
+}
+/* line 14, ../sass/_carousel.scss */
+#frontpage-slideshow .carousel-inner .views-field-title a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 1, ../sass/_menus.scss */
+.navbar {
+  position: relative;
+  margin-bottom: 0;
+  border: 0 solid transparent;
+}
+
+/* line 7, ../sass/_menus.scss */
+ul.menu.nav.navbar-nav {
+  margin: 0;
+  padding: 0;
+}
+/* line 11, ../sass/_menus.scss */
+ul.menu.nav.navbar-nav li {
+  text-transform: uppercase;
+}
+
+/* line 17, ../sass/_menus.scss */
+ul.menu.nav.navbar-nav.secondary li {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 10px;
+  margin: 10px 5px;
+}
+/* line 22, ../sass/_menus.scss */
+ul.menu.nav.navbar-nav.secondary li a {
+  display: block;
+  background: #fff;
+  color: #000;
+  padding: 5px 10px;
+}
+
+/* line 32, ../sass/_menus.scss */
+footer ul.menu.nav {
+  margin: 10px 0;
+}
+/* line 36, ../sass/_menus.scss */
+footer ul.menu.nav li {
+  margin-right: 8px;
+  display: inline-block;
+  background: transparent;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+/* line 43, ../sass/_menus.scss */
+footer ul.menu.nav li a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background: transparent;
+}
+/* line 49, ../sass/_menus.scss */
+footer ul.menu.nav li a:hover {
+  background: transparent;
+}

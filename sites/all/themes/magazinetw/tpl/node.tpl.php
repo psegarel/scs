@@ -8,6 +8,7 @@ if($node->type=='blog'){
 	$style = 'large'; //image style
 	if($node->field_image){
 	$imageone = $node->field_image['und'][0]['uri']; 
+	dsm($imageone);
 	}else{
 	$imageone = '';
 	}

@@ -1,0 +1,24 @@
+$color1: #5a7ea0;
+$backgroundColor: #e5e5e5;
+$containerBackground: #f5f5f5;
+
+$boldTitleFont : 'Lato' , sans-serif;
+$titleFont	: 'PT Sans' , sans-serif;
+$mainFont	: Raleway, sans-serif;
+
+@mixin standardTitle( $textColor , $hoverColor ) {
+	
+	font-weight: 900;
+	font-family: $boldTitleFont;
+	font-size: 18px;
+	padding: 10px 0;
+
+	a {
+		color: $textColor;
+		text-decoration: none;
+
+		&:hover {
+			color: $hoverColor;
+		}
+	}	
+}

@@ -1,0 +1,15 @@
+<?php 
+
+function southchina_preprocess_page(&$variables)
+{
+	//dsm($variables);
+
+	if($variables['is_front']){
+		unset($variables['page']['content']['system_main']['nodes']);
+	}
+}
+
+function southchina_preprocess_node(&$variables)
+{
+	//dsm($variables);
+}
