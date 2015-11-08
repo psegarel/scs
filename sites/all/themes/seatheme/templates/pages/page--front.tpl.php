@@ -184,7 +184,7 @@
     </div>
   
     <!-- Main Content -->
-    <section class="col-sm-5">
+    <section class="col-sm-6">
       <?php print render($page['content']); ?>
     </section><!-- ./ Main Content -->
     
@@ -197,7 +197,7 @@
     
     <!--  Sidebar Two -->
     <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="col-sm-4" role="complementary">
+      <aside class="col-sm-3" role="complementary">
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>    <!-- ./ Sidebar Two -->
