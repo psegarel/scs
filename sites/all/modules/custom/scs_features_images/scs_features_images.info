@@ -1,0 +1,9 @@
+name = scs_features_images
+core = 7.x
+package = Features
+dependencies[] = image
+features[features_api][] = api:2
+features[image][] = 1024x610
+features[image][] = 220x136
+features[image][] = 515x318
+features[image][] = 800x494

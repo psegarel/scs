@@ -37,16 +37,62 @@ body {
 // BLOCKS
 .block {
 	.views-row {
-		margin-bottom: 30px;
+		margin-bottom: $blockBottomMargin;
 	}
 }
 
-#block-views-frontpage-views-top-news {
-	padding: 10px;
-	background: #fff;
+#block-views-frontpage-views-top-featured {
+	margin-top: 40px;
 	
 	.views-field-title {
 		@include standardTitle( #000 , $color1 );
+	}
+}
+
+#block-views-recent-posts-recent-posts,
+#block-views-frontpage-views-top-news ,
+#block-views-frontpage-views-top-news-two {
+	@include whiteBackground;
+	margin-bottom: $blockBottomMargin;
+}
+
+#block-views-frontpage-views-top-news,
+#block-views-frontpage-views-top-news-two ,
+#block-views-frontpage-views-top-featured ,
+#block-views-frontpage-views-features {
+	.views-field-body {
+		@include standardSummary;
+	}	
+}
+
+#block-views-frontpage-views-blogger {
+	
+	.views-row {
+		padding-bottom: 20px;
+		border-bottom: 1px solid #ddd;
+
+		.views-field-title {
+			@include standardTitle( #000 , $color1 );
+			margin: 0;
+			padding: 0;
+		}
+		.views-field-body {
+			@include standardSummary;
+		}	
+	}
+
+}
+
+#block-views-recent-posts-recent-posts {
+	margin-bottom: $blockBottomMargin;
+	.views-field-title {
+		margin:0;
+		padding: 0;
+		font-size: 1em;
+	}
+
+	.views-field-created {
+		@include submitted;
 	}
 }
 

@@ -1,0 +1,38 @@
+.page-node {
+
+	.submitted {
+		@include submitted;
+	}
+
+	.content {
+	
+		a {
+			font-weight: bold;
+		}
+
+		.field-type-taxonomy-term-reference {
+			@include smallButton;
+		}
+
+		.field-name-field-subheading {
+			.field-item {
+				margin: 20px 0;
+				font-size: 2em;
+				color: #777;
+			}
+		}
+
+		.field-name-field-photo-credits {
+			margin: 0 0 30px 0;
+			padding: 5px;
+			background: #222;
+			color: #fff;
+		}
+	}
+
+	ul.node-links {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+}

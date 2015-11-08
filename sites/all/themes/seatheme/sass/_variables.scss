@@ -6,11 +6,13 @@ $boldTitleFont : 'Lato' , sans-serif;
 $titleFont	: 'PT Sans' , sans-serif;
 $mainFont	: Raleway, sans-serif;
 
+$blockBottomMargin: 30px;
+
 @mixin standardTitle( $textColor , $hoverColor ) {
 	
 	font-weight: 900;
 	font-family: $boldTitleFont;
-	font-size: 18px;
+	font-size: 14px;
 	padding: 10px 0;
 
 	a {
@@ -21,4 +23,45 @@ $mainFont	: Raleway, sans-serif;
 			color: $hoverColor;
 		}
 	}	
+}
+
+@mixin standardSummary {
+	margin-top: 4px;
+	font-size: 13px;
+	line-height: 160%;
+}
+
+@mixin whiteBackground {
+
+	padding: 20px;
+	background: #fff;
+	
+	.views-field-title {
+		@include standardTitle( #000 , $color1 );
+	}
+}
+
+@mixin smallButton {
+	margin: 10px 0;
+
+	a {
+		padding: 5px 20px;
+		background: $color1;
+		text-align: center;
+		font-weight: normal;
+		text-decoration: none;
+		color: #fff;
+
+		&:hover {
+			background: #444;
+		}
+	}
+}
+
+@mixin submitted {
+	margin:0;
+	padding:0;
+	font-style: italic;
+	font-size: .8em;
+	color: #aaa;
 }

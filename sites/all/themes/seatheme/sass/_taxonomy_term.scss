@@ -1,0 +1,22 @@
+.page-taxonomy-term {
+	.node-article {
+		
+		padding: 20px;
+		background: #eee;
+
+		.submitted {
+			@include submitted;
+		}
+
+		h2  {
+			a {
+				text-decoration: none;
+				color: #222;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+}

@@ -4,14 +4,15 @@ body {
 
 h1.page-header {
 	font-family: $boldTitleFont;
+	margin-bottom: 0;
 }
 
 h2.block-title {
-	font-family: $titleFont;
+	font-family: $boldTitleFont;
 	text-transform: uppercase;
 	font-size: 18px;
-	border-bottom: 1px solid rgba(255,255,255 , .6);
-	padding-bottom: 10px
+	font-weight: 900;
+	padding-bottom: 20px
 }
 
 ul.menu {

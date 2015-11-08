@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the scs_features_views feature.
+ */
+
+include_once 'scs_features_views.features.inc';
