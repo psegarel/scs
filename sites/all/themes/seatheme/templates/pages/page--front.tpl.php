@@ -182,6 +182,11 @@
       <?php endif; ?>
       <?php print render($title_suffix); ?>
     </div>
+  
+    <!-- Main Content -->
+    <section class="col-sm-5">
+      <?php print render($page['content']); ?>
+    </section><!-- ./ Main Content -->
     
     <!--  Sidebar One -->
     <?php if (!empty($page['sidebar_first'])): ?>
@@ -189,11 +194,6 @@
         <?php print render($page['sidebar_first']); ?>
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?><!--  ./ Sidebar One -->
-  
-    <!-- Main Content -->
-    <section class="col-sm-8">
-      <?php print render($page['content']); ?>
-    </section><!-- ./ Main Content -->
     
     <!--  Sidebar Two -->
     <?php if (!empty($page['sidebar_second'])): ?>

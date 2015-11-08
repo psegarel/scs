@@ -53,10 +53,8 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
   <!--[if IE]>
-      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+      <link href="/sites/all/themes/seatheme/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <![endif]-->
   <!-- HTML5 element support for IE6-8 -->
   <!--[if lt IE 9]>

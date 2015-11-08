@@ -32,6 +32,8 @@ regions[hidden]				= 	"Hidden Content"
 
 stylesheets[all][] = bower_components/bootstrap/dist/css/bootstrap.min.css
 stylesheets[all][] = css/style.css
+stylesheets[all][] = css/screen.css
+stylesheets[all][] = css/print.css
 
 
 ; For information on choosing the desired method, please read the Drupal
