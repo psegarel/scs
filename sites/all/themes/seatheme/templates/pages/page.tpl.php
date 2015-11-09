@@ -100,13 +100,22 @@
       <div class="col-md-3 col-lg-4">
         <?php if ($logo): ?>
           <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-        </a>
-
+            <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+          </a>
         <?php endif; ?>
-          <?php if (!empty($site_name)): ?>
-          <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+
+        <?php if (!empty($site_name)): ?>
+          <div class="scs-site-name">
+             <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+          </div>
+        <?php endif; ?>
+        
+        <?php if (!empty($site_slogan)): ?>
+          <div class="scs-site-slogan">
+            <p class="lead"><?php print $site_slogan; ?></p>
+          </div>
         <?php endif; ?> 
+
       </div> <!-- ./ Logo / Site Name -->
 
       <?php if( empty($page['leaderboard'])): ?>
@@ -149,10 +158,6 @@
 <div class="main-container container">
 
   <header role="banner" id="page-header">
-    <?php if (!empty($site_slogan)): ?>
-      <p class="lead"><?php print $site_slogan; ?></p>
-    <?php endif; ?>
-
     <?php print render($page['header']); ?>
   </header> <!-- /#page-header -->
 

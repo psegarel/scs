@@ -20,12 +20,28 @@ ul.menu {
 	font-weight: normal;
 }
 
-a.name.navbar-brand {
-	color: #fff;
-	text-transform : uppercase;
-	text-align: center;
-	font-weight: normal;
-	font-size: 28px;
-	padding: 1.5em;
-	line-height: 140%;
+.scs-site-name{
+	margin-top: 30px;
+	margin-left: 10px;
+	a.name.navbar-brand {
+		margin: 0;
+		padding: 0;
+		float: none;
+		color: #fff;
+		text-transform : uppercase;
+		font-weight: normal;
+		font-size: 28px;
+		line-height: 140%;
+	}
+}
+
+.scs-site-slogan {
+	margin-left: 10px;
+	p.lead {
+		margin: 0;
+		padding: 0;
+		color: #fff;
+		font-size: 16px;
+		font-style: italic;
+	}
 }

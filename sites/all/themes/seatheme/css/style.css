@@ -117,14 +117,33 @@ ul.menu {
 }
 
 /* line 23, ../sass/_typography.scss */
-a.name.navbar-brand {
+.scs-site-name {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+/* line 26, ../sass/_typography.scss */
+.scs-site-name a.name.navbar-brand {
+  margin: 0;
+  padding: 0;
+  float: none;
   color: #fff;
   text-transform: uppercase;
-  text-align: center;
   font-weight: normal;
   font-size: 28px;
-  padding: 1.5em;
   line-height: 140%;
+}
+
+/* line 38, ../sass/_typography.scss */
+.scs-site-slogan {
+  margin-left: 10px;
+}
+/* line 40, ../sass/_typography.scss */
+.scs-site-slogan p.lead {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 16px;
+  font-style: italic;
 }
 
 /* line 1, ../sass/_structure.scss */
@@ -132,22 +151,22 @@ body {
   background: #e5e5e5;
 }
 
-/* line 11, ../sass/_structure.scss */
+/* line 5, ../sass/_structure.scss */
 #top-header {
   min-height: 20px;
 }
 
-/* line 15, ../sass/_structure.scss */
+/* line 9, ../sass/_structure.scss */
 .main-container {
   padding-top: 15px;
   padding-bottom: 60px;
 }
 
-/* line 21, ../sass/_structure.scss */
+/* line 15, ../sass/_structure.scss */
 .leaderboard .container {
   background: #5a7ea0;
 }
-/* line 27, ../sass/_structure.scss */
+/* line 21, ../sass/_structure.scss */
 .leaderboard #leaderboard {
   display: block;
   margin-top: 20px;
@@ -157,16 +176,16 @@ body {
   background: #eee;
 }
 
-/* line 39, ../sass/_structure.scss */
+/* line 33, ../sass/_structure.scss */
 .block .views-row {
   margin-bottom: 30px;
 }
 
-/* line 44, ../sass/_structure.scss */
+/* line 38, ../sass/_structure.scss */
 #block-views-frontpage-views-top-featured {
   margin-top: 40px;
 }
-/* line 47, ../sass/_structure.scss */
+/* line 41, ../sass/_structure.scss */
 #block-views-frontpage-views-top-featured .views-field-title {
   font-weight: 900;
   font-family: "Lato", sans-serif;
@@ -183,7 +202,7 @@ body {
   color: #5a7ea0;
 }
 
-/* line 52, ../sass/_structure.scss */
+/* line 46, ../sass/_structure.scss */
 #block-views-recent-posts-recent-posts,
 #block-views-frontpage-views-top-news,
 #block-views-frontpage-views-top-news-two {
@@ -214,7 +233,7 @@ body {
   color: #5a7ea0;
 }
 
-/* line 63, ../sass/_structure.scss */
+/* line 57, ../sass/_structure.scss */
 #block-views-frontpage-views-top-news .views-field-body,
 #block-views-frontpage-views-top-news-two .views-field-body,
 #block-views-frontpage-views-top-featured .views-field-body,
@@ -224,12 +243,12 @@ body {
   line-height: 160%;
 }
 
-/* line 70, ../sass/_structure.scss */
+/* line 64, ../sass/_structure.scss */
 #block-views-frontpage-views-blogger .views-row {
   padding-bottom: 20px;
   border-bottom: 1px solid #ddd;
 }
-/* line 74, ../sass/_structure.scss */
+/* line 68, ../sass/_structure.scss */
 #block-views-frontpage-views-blogger .views-row .views-field-title {
   font-weight: 900;
   font-family: "Lato", sans-serif;
@@ -247,24 +266,24 @@ body {
 #block-views-frontpage-views-blogger .views-row .views-field-title a:hover {
   color: #5a7ea0;
 }
-/* line 79, ../sass/_structure.scss */
+/* line 73, ../sass/_structure.scss */
 #block-views-frontpage-views-blogger .views-row .views-field-body {
   margin-top: 4px;
   font-size: 13px;
   line-height: 160%;
 }
 
-/* line 86, ../sass/_structure.scss */
+/* line 80, ../sass/_structure.scss */
 #block-views-recent-posts-recent-posts {
   margin-bottom: 30px;
 }
-/* line 88, ../sass/_structure.scss */
+/* line 82, ../sass/_structure.scss */
 #block-views-recent-posts-recent-posts .views-field-title {
   margin: 0;
   padding: 0;
   font-size: 1em;
 }
-/* line 94, ../sass/_structure.scss */
+/* line 88, ../sass/_structure.scss */
 #block-views-recent-posts-recent-posts .views-field-created {
   margin: 0;
   padding: 0;
@@ -273,13 +292,13 @@ body {
   color: #aaa;
 }
 
-/* line 99, ../sass/_structure.scss */
+/* line 93, ../sass/_structure.scss */
 #block-views-frontpage-views-features {
   padding: 10px;
   background: #5a7ea0;
   color: rgba(255, 255, 255, 0.6);
 }
-/* line 104, ../sass/_structure.scss */
+/* line 98, ../sass/_structure.scss */
 #block-views-frontpage-views-features .views-field-title {
   font-weight: 900;
   font-family: "Lato", sans-serif;
@@ -295,7 +314,7 @@ body {
 #block-views-frontpage-views-features .views-field-title a:hover {
   color: #000;
 }
-/* line 108, ../sass/_structure.scss */
+/* line 102, ../sass/_structure.scss */
 #block-views-frontpage-views-features .views-field-changed,
 #block-views-frontpage-views-features .views-field-body {
   margin: 10px 0;
