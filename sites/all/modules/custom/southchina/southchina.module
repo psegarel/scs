@@ -6,6 +6,7 @@ function southchina_preprocess_page(&$variables)
 
 	if($variables['is_front']){
 		unset($variables['page']['content']['system_main']['nodes']);
+		unset($variables['page']['content']['system_main']['pager']);
 	}
 }
 
