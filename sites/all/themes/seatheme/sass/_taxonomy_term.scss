@@ -46,8 +46,22 @@
 		.views-field-body {
 			@include standardSummary;
 		}
+	}
 
+	.view-display-id-latest {
+		.text-wrapper	{
+			padding: 20px;
 
+			.views-field-title {
+				@include standardTitle('#444' , $color1 );
+				font-size: 24px;
+			}
+
+			.views-field-field-subheading {
+				@include standardSubheading;
+				font-size: 24px;
+			}
+		}
 	}
 
 	.node-article {

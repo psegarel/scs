@@ -436,12 +436,42 @@ body {
   font-size: 13px;
   line-height: 160%;
 }
-/* line 53, ../sass/_taxonomy_term.scss */
+/* line 52, ../sass/_taxonomy_term.scss */
+.page-taxonomy-term .view-display-id-latest .text-wrapper {
+  padding: 20px;
+}
+/* line 55, ../sass/_taxonomy_term.scss */
+.page-taxonomy-term .view-display-id-latest .text-wrapper .views-field-title {
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  padding: 10px 0;
+  font-size: 24px;
+}
+/* line 18, ../sass/_variables.scss */
+.page-taxonomy-term .view-display-id-latest .text-wrapper .views-field-title a {
+  color: "#444";
+  text-decoration: none;
+}
+/* line 22, ../sass/_variables.scss */
+.page-taxonomy-term .view-display-id-latest .text-wrapper .views-field-title a:hover {
+  color: #5a7ea0;
+}
+/* line 60, ../sass/_taxonomy_term.scss */
+.page-taxonomy-term .view-display-id-latest .text-wrapper .views-field-field-subheading {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #777;
+  font-size: 13px;
+  font-size: 24px;
+}
+/* line 67, ../sass/_taxonomy_term.scss */
 .page-taxonomy-term .node-article {
   padding: 20px;
   background: #eee;
 }
-/* line 58, ../sass/_taxonomy_term.scss */
+/* line 72, ../sass/_taxonomy_term.scss */
 .page-taxonomy-term .node-article .submitted {
   margin: 0;
   padding: 0;
@@ -449,12 +479,12 @@ body {
   font-size: .8em;
   color: #aaa;
 }
-/* line 63, ../sass/_taxonomy_term.scss */
+/* line 77, ../sass/_taxonomy_term.scss */
 .page-taxonomy-term .node-article h2 a {
   text-decoration: none;
   color: #222;
 }
-/* line 66, ../sass/_taxonomy_term.scss */
+/* line 80, ../sass/_taxonomy_term.scss */
 .page-taxonomy-term .node-article h2 a:hover {
   text-decoration: none;
 }

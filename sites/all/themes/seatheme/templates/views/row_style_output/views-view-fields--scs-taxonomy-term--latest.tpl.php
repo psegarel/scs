@@ -25,13 +25,13 @@
  */
 ?>
 <div class="row">
-	<?php if(!empty($fields['field_image'])): ?>
-	<div class="col-md-4">
-		<?php print render($fields['field_image']->content) ; ?>
-	</div>
-	<?php endif; ?>
 
-	<div class="col-md-8">
+	<div class="col-md-12">
+		
+		<?php if(!empty($fields['field_image'])): ?>
+			<?php print render($fields['field_image']->content) ; ?>
+		<?php endif; ?>
+
 		<div class="text-wrapper">
 			<?php print $fields['title']->wrapper_prefix; ?>
 			<?php print render($fields['title']->content) ; ?> 
