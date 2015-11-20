@@ -119,6 +119,10 @@ function scs_features_views_views_default_views() {
   $handler = $view->new_display('block', 'Top News', 'top_news');
   $handler->display->display_options['defaults']['title'] = FALSE;
   $handler->display->display_options['title'] = 'Cruises';
+  $handler->display->display_options['defaults']['pager'] = FALSE;
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '2';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Content: Image */
   $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
@@ -248,8 +252,8 @@ function scs_features_views_views_default_views() {
   $handler->display->display_options['fields']['field_image']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_image']['settings'] = array(
-    'image_style' => '220x136',
-    'image_link' => '',
+    'image_style' => '515x318',
+    'image_link' => 'content',
   );
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
@@ -347,6 +351,10 @@ function scs_features_views_views_default_views() {
   $handler = $view->new_display('block', 'Top News Two', 'top_news_two');
   $handler->display->display_options['defaults']['title'] = FALSE;
   $handler->display->display_options['title'] = 'Sea Lifestyle';
+  $handler->display->display_options['defaults']['pager'] = FALSE;
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '2';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Content: Image */
   $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
