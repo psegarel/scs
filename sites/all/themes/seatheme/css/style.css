@@ -1,5 +1,21 @@
 /* latin-ext */
 @font-face {
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Great Vibes"), local("GreatVibes-Regular"), url(../fonts/google/greatvibes/6q1c0ofG6NKsEhAc2eh-3aE8kM4xWR1_1bYURRojRGc.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Great Vibes"), local("GreatVibes-Regular"), url(../fonts/google/greatvibes/6q1c0ofG6NKsEhAc2eh-3Ygp9Q8gbYrhqGlRav_IXfk.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
@@ -118,32 +134,33 @@ ul.menu {
 
 /* line 23, ../sass/_typography.scss */
 .scs-site-name {
-  margin-top: 30px;
+  margin-top: 10px;
   margin-left: 10px;
 }
 /* line 27, ../sass/_typography.scss */
 .scs-site-name a.name.navbar-brand {
+  font-family: 'Great Vibes', Helvetica, sans-serif;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.1);
   margin: 0;
   padding: 0;
   float: none;
-  color: #fff;
-  text-transform: uppercase;
+  color: #444;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 140%;
+  font-size: 48px;
+  line-height: 100%;
 }
 
-/* line 39, ../sass/_typography.scss */
+/* line 41, ../sass/_typography.scss */
 .scs-site-slogan {
+  margin-top: 5px;
   margin-left: 10px;
 }
-/* line 41, ../sass/_typography.scss */
+/* line 44, ../sass/_typography.scss */
 .scs-site-slogan p.lead {
   margin: 0;
-  padding: 0;
-  color: #fff;
-  font-size: 16px;
-  font-style: italic;
+  padding: 5px 0;
+  color: #777;
+  font-size: 12px;
 }
 
 /* line 1, ../sass/_structure.scss */
@@ -162,30 +179,37 @@ body {
   padding-bottom: 60px;
 }
 
-/* line 15, ../sass/_structure.scss */
-.leaderboard .container {
-  background: #5a7ea0;
+/* line 14, ../sass/_structure.scss */
+.leaderboard {
+  padding: 5px 0;
 }
-/* line 21, ../sass/_structure.scss */
+/* line 16, ../sass/_structure.scss */
+.leaderboard .container {
+  background: #f5f5f5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 25, ../sass/_structure.scss */
 .leaderboard #leaderboard {
   display: block;
   margin-top: 20px;
   margin-bottom: 20px;
   min-width: 728px;
   min-height: 90px;
-  background: #eee;
 }
 
-/* line 33, ../sass/_structure.scss */
+/* line 36, ../sass/_structure.scss */
 .block .views-row {
   margin-bottom: 30px;
 }
 
-/* line 38, ../sass/_structure.scss */
+/* line 41, ../sass/_structure.scss */
 #block-views-frontpage-views-top-featured {
   margin-top: 40px;
 }
-/* line 41, ../sass/_structure.scss */
+/* line 44, ../sass/_structure.scss */
 #block-views-frontpage-views-top-featured .views-field-title {
   font-weight: 900;
   font-family: "Lato", sans-serif;
@@ -202,7 +226,7 @@ body {
   color: #5a7ea0;
 }
 
-/* line 46, ../sass/_structure.scss */
+/* line 49, ../sass/_structure.scss */
 #block-views-recent-posts-recent-posts,
 #block-views-frontpage-views-top-news,
 #block-views-frontpage-views-top-news-two {
@@ -233,7 +257,7 @@ body {
   color: #5a7ea0;
 }
 
-/* line 57, ../sass/_structure.scss */
+/* line 60, ../sass/_structure.scss */
 #block-views-frontpage-views-top-news .views-field-body,
 #block-views-frontpage-views-top-news-two .views-field-body,
 #block-views-frontpage-views-top-featured .views-field-body,
@@ -243,12 +267,12 @@ body {
   line-height: 160%;
 }
 
-/* line 64, ../sass/_structure.scss */
+/* line 67, ../sass/_structure.scss */
 #block-views-frontpage-views-blogger .views-row {
   padding-bottom: 20px;
   border-bottom: 1px solid #ddd;
 }
-/* line 68, ../sass/_structure.scss */
+/* line 71, ../sass/_structure.scss */
 #block-views-frontpage-views-blogger .views-row .views-field-title {
   font-weight: 900;
   font-family: "Lato", sans-serif;
@@ -266,24 +290,24 @@ body {
 #block-views-frontpage-views-blogger .views-row .views-field-title a:hover {
   color: #5a7ea0;
 }
-/* line 73, ../sass/_structure.scss */
+/* line 76, ../sass/_structure.scss */
 #block-views-frontpage-views-blogger .views-row .views-field-body {
   margin-top: 4px;
   font-size: 13px;
   line-height: 160%;
 }
 
-/* line 80, ../sass/_structure.scss */
+/* line 83, ../sass/_structure.scss */
 #block-views-recent-posts-recent-posts {
   margin-bottom: 30px;
 }
-/* line 82, ../sass/_structure.scss */
+/* line 85, ../sass/_structure.scss */
 #block-views-recent-posts-recent-posts .views-field-title {
   margin: 0;
   padding: 0;
   font-size: 1em;
 }
-/* line 88, ../sass/_structure.scss */
+/* line 91, ../sass/_structure.scss */
 #block-views-recent-posts-recent-posts .views-field-created {
   margin: 0;
   padding: 0;
@@ -292,13 +316,13 @@ body {
   color: #aaa;
 }
 
-/* line 93, ../sass/_structure.scss */
+/* line 96, ../sass/_structure.scss */
 #block-views-frontpage-views-features {
   padding: 10px;
   background: #5a7ea0;
   color: rgba(255, 255, 255, 0.6);
 }
-/* line 98, ../sass/_structure.scss */
+/* line 101, ../sass/_structure.scss */
 #block-views-frontpage-views-features .views-field-title {
   font-weight: 900;
   font-family: "Lato", sans-serif;
@@ -314,7 +338,7 @@ body {
 #block-views-frontpage-views-features .views-field-title a:hover {
   color: #000;
 }
-/* line 102, ../sass/_structure.scss */
+/* line 105, ../sass/_structure.scss */
 #block-views-frontpage-views-features .views-field-changed,
 #block-views-frontpage-views-features .views-field-body {
   margin: 10px 0;

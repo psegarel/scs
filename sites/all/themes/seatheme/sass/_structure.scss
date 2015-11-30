@@ -12,10 +12,14 @@ body {
 }
 
 .leaderboard {
+	padding: 5px 0;
 	.container {
-		background: $color1;
-		// padding-top: 5px;
-		// padding-bottom: 5px;
+		background: $containerBackground;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		// background: transparent;
 	}
 
 	#leaderboard {
@@ -24,7 +28,6 @@ body {
 		margin-bottom: 20px;
 		min-width: 728px;
 		min-height: 90px;
-		background: #eee;
 	}
 }
 
