@@ -1,9 +1,67 @@
 <?php 
 
+
+function southchina_flush_caches()
+{
+	$channel = taxonomy_vocabulary_machine_name_load('categories');
+	$tree = taxonomy_get_tree( $channel->vid );
+
+
+	foreach ( $tree as $key => $value) {
+
+		$query = new EntityFieldQuery();
+		$query->entityCondition('entity_type', 'node')
+	  		->entityCondition('bundle', 'article')
+	  		->fieldCondition('field_category', 'tid', $value->tid )
+  			->range(0, 20)
+	  		->propertyCondition('status', NODE_PUBLISHED);
+
+	  	$result = $query->execute();
+
+	  	if(!empty($result['node'])){
+	  		$nids = array_keys($result['node']);
+	  		_southchina_frontpage_sort($nids , $value );
+	  	}
+	}
+
+
+}
+
+// Updates the recently created nodes to Promoted to frontpage,
+// whilst demoting the others.
+function _southchina_frontpage_sort($nids , $term )
+{
+	$nodes = [];
+
+	// Use the "created" value to sort the results by date
+	foreach ($nids as $key => $value) {
+		$node = node_load($value);
+		$nodes[$node->created] = $node;
+	}
+	ksort($nodes);
+
+	$reversed = array_reverse($nodes);
+
+	if($term->name == 'Sea Action'){
+		$max = 3;
+	}else{
+		$max = 2;
+	}
+
+	$count = 1;
+	foreach ($reversed as $key => $node) {
+		if($count <= $max){
+			$node->promote = 1;
+		}else{
+			$node->promote = 0;
+		}
+		node_save($node);
+		$count++;
+	}
+}
+
 function southchina_preprocess_page(&$variables)
 {
-	//dsm($variables);
-
 	if($variables['is_front']){
 		unset($variables['page']['content']['system_main']['nodes']);
 		unset($variables['page']['content']['system_main']['pager']);
