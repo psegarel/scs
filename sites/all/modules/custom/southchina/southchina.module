@@ -31,7 +31,7 @@ function southchina_flush_caches()
 // whilst demoting the others.
 function _southchina_frontpage_sort($nids , $term )
 {
-	$nodes = [];
+	$nodes = array();
 
 	// Use the "created" value to sort the results by date
 	foreach ($nids as $key => $value) {
