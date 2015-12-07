@@ -51,6 +51,7 @@ stylesheets[all][] = css/style.css
 ; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
 settings[bootstrap_cdn] = ''
 scripts[] = bower_components/bootstrap/dist/js/bootstrap.min.js
+scripts[] = js/seatheme.js
 
 
 
