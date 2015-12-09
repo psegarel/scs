@@ -58,6 +58,18 @@ function _southchina_frontpage_sort($nids , $term )
 		node_save($node);
 		$count++;
 	}
+
+	// $count = 1;
+	// $slideshowMax = 4;
+	// foreach ($reversed as $key => $node) {
+	// 	if($count <= $slideshowMax){
+	// 		$node->sticky = 1;
+	// 	}else{
+	// 		$node->sticky = 0;
+	// 	}
+	// 	node_save($node);
+	// 	$count++;
+	// }
 }
 
 function southchina_preprocess_page(&$variables)

@@ -97,7 +97,7 @@
     <div class="row">
 
       <!-- Logo / Site Name -->
-      <div class="col-md-3 col-lg-4">
+      <div class="col-md-12">
         <?php if ($logo): ?>
           <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
             <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
@@ -119,7 +119,7 @@
       </div> <!-- ./ Logo / Site Name -->
 
       <?php if( empty($page['leaderboard'])): ?>
-        <div class="col-md-9 col-lg-8 hidden-xs hidden-sm">
+        <div class="col-md-12 hidden-xs hidden-sm">
           <div id="leaderboard">
             <?php print render($page['leaderboard']); ?>
           </div>

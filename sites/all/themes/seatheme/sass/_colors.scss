@@ -9,3 +9,18 @@
 footer {
 	background: $color1;
 }
+
+.blue {
+	color: #444;
+}
+
+.magazine {
+	color: $color3;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #eee;
+    background-color: $color1;
+}

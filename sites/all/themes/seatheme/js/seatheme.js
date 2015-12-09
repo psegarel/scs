@@ -12,9 +12,9 @@
 			words.forEach( function(value){
 
 				if(value != 'Magazine'){
-					html = html + value;
+					html = html + value + ' ';
 				}else{
-					html = html + '</span> ' + value;
+					html = html + '</span><span class="magazine"> ' + value + '</span>';
 				}
 				$siteName.html(html);
 				$siteName.fadeIn();
