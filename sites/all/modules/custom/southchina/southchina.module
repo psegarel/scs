@@ -42,10 +42,16 @@ function _southchina_frontpage_sort($nids , $term )
 
 	$reversed = array_reverse($nodes);
 
-	if($term->name == 'Sea Action'){
-		$max = 3;
-	}else{
-		$max = 2;
+	switch($term->name){
+		case 'Periscope';
+			$max = 6;
+			break;
+		case 'Sea Action':
+			$max = 3;
+			break;
+		default:
+			$max = 2;
+			break;
 	}
 
 	$count = 1;

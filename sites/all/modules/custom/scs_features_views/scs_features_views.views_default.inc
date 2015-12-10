@@ -103,11 +103,7 @@ function scs_features_views_views_default_views() {
   $handler->display->display_options['filters']['field_category_tid']['table'] = 'field_data_field_category';
   $handler->display->display_options['filters']['field_category_tid']['field'] = 'field_category_tid';
   $handler->display->display_options['filters']['field_category_tid']['value'] = array(
-    1 => '1',
-    4 => '4',
-    3 => '3',
-    2 => '2',
-    5 => '5',
+    7 => '7',
   );
   $handler->display->display_options['filters']['field_category_tid']['reduce_duplicates'] = TRUE;
   $handler->display->display_options['filters']['field_category_tid']['type'] = 'select';
@@ -122,11 +118,6 @@ function scs_features_views_views_default_views() {
   $handler->display->display_options['filters']['promote']['table'] = 'node';
   $handler->display->display_options['filters']['promote']['field'] = 'promote';
   $handler->display->display_options['filters']['promote']['value'] = '1';
-  /* Filter criterion: Content: Sticky */
-  $handler->display->display_options['filters']['sticky']['id'] = 'sticky';
-  $handler->display->display_options['filters']['sticky']['table'] = 'node';
-  $handler->display->display_options['filters']['sticky']['field'] = 'sticky';
-  $handler->display->display_options['filters']['sticky']['value'] = '1';
 
   /* Display: Top News */
   $handler = $view->new_display('block', 'Top News', 'top_news');
