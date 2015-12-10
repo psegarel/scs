@@ -192,10 +192,11 @@ ul.menu {
 
 /* line 54, ../sass/_typography.scss */
 .scs-site-slogan {
+  font-family: 'Lato', sans-serif;
   margin-left: 10px;
   text-align: center;
 }
-/* line 58, ../sass/_typography.scss */
+/* line 59, ../sass/_typography.scss */
 .scs-site-slogan p.lead {
   margin: 0;
   padding: 2px 0;
