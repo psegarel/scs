@@ -53,6 +53,8 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
+  <link href='https://fonts.googleapis.com/css?family=Work+Sans:900' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
   <!--[if IE]>
       <link href="/sites/all/themes/seatheme/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <![endif]-->

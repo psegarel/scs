@@ -1,3 +1,11 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Work Sans Black"), local("WorkSans-Black"), url(../fonts/google/worksans/Hjn0acvjHfjY_vAK9Uc6gojoYw3YTyktCCer_ilOlhE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
 /* latin */
 @font-face {
   font-family: 'Work Sans';
@@ -135,15 +143,17 @@ footer {
 /* line 1, ../sass/_typography.scss */
 body {
   font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
-/* line 5, ../sass/_typography.scss */
+/* line 7, ../sass/_typography.scss */
 h1.page-header {
   font-family: "Lato", sans-serif;
   margin-bottom: 0;
 }
 
-/* line 10, ../sass/_typography.scss */
+/* line 12, ../sass/_typography.scss */
 h2.block-title {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
@@ -154,32 +164,34 @@ h2.block-title {
   color: #0D799D;
 }
 
-/* line 21, ../sass/_typography.scss */
+/* line 23, ../sass/_typography.scss */
 #block-views-frontpage-views-features h2.block-title {
   color: #eee;
 }
 
-/* line 26, ../sass/_typography.scss */
+/* line 28, ../sass/_typography.scss */
 ul.menu {
   font-family: "PT Sans", sans-serif;
   font-weight: normal;
 }
 
-/* line 31, ../sass/_typography.scss */
+/* line 33, ../sass/_typography.scss */
 .magazine {
   color: #06ABB4;
 }
 
-/* line 35, ../sass/_typography.scss */
+/* line 37, ../sass/_typography.scss */
 .scs-site-name {
   margin-top: 30px;
   margin-left: 10px;
   text-align: center;
 }
-/* line 40, ../sass/_typography.scss */
+/* line 42, ../sass/_typography.scss */
 .scs-site-name a.name.navbar-brand {
   display: none;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif !important;
+  font-style: normal;
+  font-weight: 900;
   text-transform: uppercase;
   margin: 0;
   padding: 0;
@@ -190,13 +202,13 @@ ul.menu {
   line-height: 50%;
 }
 
-/* line 54, ../sass/_typography.scss */
+/* line 58, ../sass/_typography.scss */
 .scs-site-slogan {
   font-family: 'Lato', sans-serif;
   margin-left: 10px;
   text-align: center;
 }
-/* line 59, ../sass/_typography.scss */
+/* line 63, ../sass/_typography.scss */
 .scs-site-slogan p.lead {
   margin: 0;
   padding: 2px 0;
