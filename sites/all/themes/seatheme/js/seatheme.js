@@ -1,4 +1,23 @@
 (function($){
+	
+	Drupal.behaviors.externalLinks = {
+		attach: function( context , settings) {
+
+			$('a').each( function(value){
+				var $this = $(this);
+				var address = $this.attr('href');
+
+				if(typeof address !== 'undefined'){
+
+					var index = address.indexOf('http');
+					if(index > -1){
+						$this.attr('target' , '_blank');
+						//console.log(address);
+					}
+				}
+			});
+		}
+	}
 
 	Drupal.behaviors.siteName = {
 		attach: function( context , settings) {
