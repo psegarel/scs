@@ -585,30 +585,56 @@ body {
 }
 
 /* line 1, ../sass/_menus.scss */
+.social-links {
+  list-style: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+/* line 6, ../sass/_menus.scss */
+.social-links li {
+  display: inline-block;
+}
+/* line 8, ../sass/_menus.scss */
+.social-links li a {
+  color: #222;
+  display: block;
+  background: #fafafa;
+  margin-right: 5px;
+  padding: 5px;
+  min-height: 10px;
+  min-width: 60px;
+}
+/* line 16, ../sass/_menus.scss */
+.social-links li a:hover {
+  background: #06ABB4;
+  color: #fff;
+}
+
+/* line 24, ../sass/_menus.scss */
 #navbar {
   background: #fafafa;
   border-bottom: 2px solid #fff;
   border-radius: 0;
 }
 
-/* line 7, ../sass/_menus.scss */
+/* line 30, ../sass/_menus.scss */
 .navbar {
   position: relative;
   margin-bottom: 0;
   border: 0 solid transparent;
 }
 
-/* line 13, ../sass/_menus.scss */
+/* line 36, ../sass/_menus.scss */
 ul.menu.nav.navbar-nav {
   margin: 0;
   padding: 0;
 }
-/* line 17, ../sass/_menus.scss */
+/* line 40, ../sass/_menus.scss */
 ul.menu.nav.navbar-nav li {
   text-transform: uppercase;
 }
 
-/* line 23, ../sass/_menus.scss */
+/* line 46, ../sass/_menus.scss */
 ul.menu.nav.navbar-nav.secondary li {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -616,7 +642,7 @@ ul.menu.nav.navbar-nav.secondary li {
   font-size: 10px;
   margin: 10px 5px;
 }
-/* line 28, ../sass/_menus.scss */
+/* line 51, ../sass/_menus.scss */
 ul.menu.nav.navbar-nav.secondary li a {
   display: block;
   background: #fafafa;
@@ -624,11 +650,11 @@ ul.menu.nav.navbar-nav.secondary li a {
   padding: 5px 10px;
 }
 
-/* line 38, ../sass/_menus.scss */
+/* line 61, ../sass/_menus.scss */
 footer ul.menu.nav {
   margin: 10px 0;
 }
-/* line 42, ../sass/_menus.scss */
+/* line 65, ../sass/_menus.scss */
 footer ul.menu.nav li {
   margin-right: 8px;
   display: inline-block;
@@ -636,7 +662,7 @@ footer ul.menu.nav li {
   text-transform: uppercase;
   font-size: 12px;
 }
-/* line 49, ../sass/_menus.scss */
+/* line 72, ../sass/_menus.scss */
 footer ul.menu.nav li a {
   display: block;
   margin: 0;
@@ -644,7 +670,7 @@ footer ul.menu.nav li a {
   color: #fff;
   background: transparent;
 }
-/* line 55, ../sass/_menus.scss */
+/* line 78, ../sass/_menus.scss */
 footer ul.menu.nav li a:hover {
   background: transparent;
 }

@@ -82,11 +82,12 @@
           <?php print render( $secondary_nav ); ?>
         </div>
       <?php endif; ?>
-      <?php if(!empty($page['top_header_right'])): ?>
-        <div class="col-md-6">
-          <?php print render($page['top_header_right']); ?>
-        </div>
-      <?php endif; ?>
+      <div class="col-md-6">
+        <div id="social-networks"></div>
+        <?php if(!empty($page['top_header_right'])): ?>
+            <?php print render($page['top_header_right']); ?>
+        <?php endif; ?>
+      </div>
     </div>
   </div>
 </section><!-- ./ Top Header -->

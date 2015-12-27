@@ -1,5 +1,5 @@
 (function($){
-	
+
 	Drupal.behaviors.externalLinks = {
 		attach: function( context , settings) {
 
@@ -12,10 +12,23 @@
 					var index = address.indexOf('http');
 					if(index > -1){
 						$this.attr('target' , '_blank');
-						//console.log(address);
 					}
 				}
 			});
+		}
+	}
+
+	Drupal.behaviors.socialNetworks = {
+		attach: function( context , settings) {
+
+			$.ajax({
+			  url: "/sites/all/themes/seatheme/html/social.html",
+			  context: document.body
+			}).done(function(data) {
+				$('#social-networks').html(data);
+				console.log(data);
+			});
+
 		}
 	}
 
