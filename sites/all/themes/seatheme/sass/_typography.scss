@@ -8,16 +8,7 @@ h1.page-header {
 	font-family: $boldTitleFont;
 	margin-bottom: 0;
 }
-.page-user{
-	h1.page-header {
-		font-family: $boldTitleFont;
-		text-transform: uppercase;
-		border: none;
-		margin-bottom: 20px;
-		font-size: 20px;
-		display: none;
-	}
-
+.page-user {
 	#user-login,
 	#user-pass {
 		margin-top: 40px;
@@ -25,7 +16,8 @@ h1.page-header {
 }
 
 .page-taxonomy-term,
-.page-node  {
+.page-node ,
+.page-user {
 
 	h1.page-header {
 		color: $color1;

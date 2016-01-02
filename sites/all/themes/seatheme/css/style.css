@@ -154,23 +154,15 @@ h1.page-header {
 }
 
 /* line 12, ../sass/_typography.scss */
-.page-user h1.page-header {
-  font-family: "Lato", sans-serif;
-  text-transform: uppercase;
-  border: none;
-  margin-bottom: 20px;
-  font-size: 20px;
-  display: none;
-}
-/* line 21, ../sass/_typography.scss */
 .page-user #user-login,
 .page-user #user-pass {
   margin-top: 40px;
 }
 
-/* line 30, ../sass/_typography.scss */
+/* line 22, ../sass/_typography.scss */
 .page-taxonomy-term h1.page-header,
-.page-node h1.page-header {
+.page-node h1.page-header,
+.page-user h1.page-header {
   color: #0D799D;
   font-family: "PT Sans", sans-serif;
   font-size: 26px;
@@ -180,7 +172,7 @@ h1.page-header {
   text-transform: uppercase;
 }
 
-/* line 41, ../sass/_typography.scss */
+/* line 33, ../sass/_typography.scss */
 h2.block-title {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
@@ -191,29 +183,29 @@ h2.block-title {
   color: #0D799D;
 }
 
-/* line 52, ../sass/_typography.scss */
+/* line 44, ../sass/_typography.scss */
 #block-views-frontpage-views-features h2.block-title {
   color: #eee;
 }
 
-/* line 57, ../sass/_typography.scss */
+/* line 49, ../sass/_typography.scss */
 ul.menu {
   font-family: "PT Sans", sans-serif;
   font-weight: normal;
 }
 
-/* line 62, ../sass/_typography.scss */
+/* line 54, ../sass/_typography.scss */
 .magazine {
   color: #06ABB4;
 }
 
-/* line 66, ../sass/_typography.scss */
+/* line 58, ../sass/_typography.scss */
 .scs-site-name {
   margin-top: 30px;
   margin-left: 10px;
   text-align: center;
 }
-/* line 71, ../sass/_typography.scss */
+/* line 63, ../sass/_typography.scss */
 .scs-site-name a.name.navbar-brand {
   display: none;
   font-family: 'Work Sans', sans-serif !important;
@@ -229,13 +221,13 @@ ul.menu {
   line-height: 50%;
 }
 
-/* line 87, ../sass/_typography.scss */
+/* line 79, ../sass/_typography.scss */
 .scs-site-slogan {
   font-family: 'Lato', sans-serif;
   margin-left: 10px;
   text-align: center;
 }
-/* line 92, ../sass/_typography.scss */
+/* line 84, ../sass/_typography.scss */
 .scs-site-slogan p.lead {
   margin: 0;
   padding: 2px 0;
