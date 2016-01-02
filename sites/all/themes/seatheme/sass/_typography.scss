@@ -8,6 +8,35 @@ h1.page-header {
 	font-family: $boldTitleFont;
 	margin-bottom: 0;
 }
+.page-user{
+	h1.page-header {
+		font-family: $boldTitleFont;
+		text-transform: uppercase;
+		border: none;
+		margin-bottom: 20px;
+		font-size: 20px;
+		display: none;
+	}
+
+	#user-login,
+	#user-pass {
+		margin-top: 40px;
+	}
+}
+
+.page-taxonomy-term,
+.page-node  {
+
+	h1.page-header {
+		color: $color1;
+		font-family: $titleFont;
+		font-size: 26px;
+		margin-bottom: 20px;
+		padding-bottom: 10px;
+		border-bottom: 3px solid $color1;
+		text-transform: uppercase;
+	}
+}
 
 h2.block-title {
 	font-family: $boldTitleFont;

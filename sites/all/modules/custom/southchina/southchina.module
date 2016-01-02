@@ -1,6 +1,22 @@
 <?php 
 
 
+function southchina_preprocess_page(&$variables)
+{
+	if(in_array('page__user', $variables['theme_hook_suggestions']) && $variables['logged_in'] ){
+		drupal_goto('/admin/content');
+	}
+	if($variables['is_front']){
+		unset($variables['page']['content']['system_main']['nodes']);
+		unset($variables['page']['content']['system_main']['pager']);
+	}
+}
+
+function southchina_preprocess_node(&$variables)
+{
+	//dsm($variables);
+}
+
 function southchina_flush_caches()
 {
 	$channel = taxonomy_vocabulary_machine_name_load('categories');
@@ -76,17 +92,4 @@ function _southchina_frontpage_sort($nids , $term )
 	// 	node_save($node);
 	// 	$count++;
 	// }
-}
-
-function southchina_preprocess_page(&$variables)
-{
-	if($variables['is_front']){
-		unset($variables['page']['content']['system_main']['nodes']);
-		unset($variables['page']['content']['system_main']['pager']);
-	}
-}
-
-function southchina_preprocess_node(&$variables)
-{
-	//dsm($variables);
 }

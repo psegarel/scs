@@ -3,3 +3,5 @@ description = "Helper functions"
 core = 7.x
 
 package = South China Sea
+
+dependencies[] = scs_content_types
