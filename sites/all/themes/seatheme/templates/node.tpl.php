@@ -111,7 +111,9 @@
     data-show-faces="true">
   </div>
   <?php if(!empty($current_url)): ?>
-    <div class="fb-send" data-href="<?php print $current_url; ?>"></div>
+    <div class="fb-send-wrapper">
+      <div class="fb-send" data-href="<?php print $current_url; ?>"></div>
+    </div>
   <?php endif; ?>
 
 </div>

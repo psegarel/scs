@@ -30,6 +30,12 @@
 		}
 	}
 
+	.fb-send-wrapper {
+		@media(min-width: 768px){
+			margin-top: 20px;
+		}
+	}
+
 	ul.node-links {
 		list-style: none;
 		margin: 0;
