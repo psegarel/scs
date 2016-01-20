@@ -110,9 +110,8 @@
     data-width="450"
     data-show-faces="true">
   </div>
-
-  <?php print render($content['links']); ?>
-
-  <?php print render($content['comments']); ?>
+  <?php if(!empty($current_url)): ?>
+    <div class="fb-send" data-href="<?php print $current_url; ?>"></div>
+  <?php endif; ?>
 
 </div>

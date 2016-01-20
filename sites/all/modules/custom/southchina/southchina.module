@@ -14,7 +14,9 @@ function southchina_preprocess_page(&$variables)
 
 function southchina_preprocess_node(&$variables)
 {
-	//dsm($variables);
+	$path = current_path();
+	$url = url( $path , array('absolute' => TRUE));
+	$variables['current_url'] = $url;
 }
 
 function southchina_flush_caches()
