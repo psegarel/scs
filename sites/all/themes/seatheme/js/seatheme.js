@@ -1,5 +1,12 @@
 (function($){
 
+	Drupal.behaviors.ads = {
+		attach: function( context , settings) {
+			var delay = 4000;
+			$('.billboard', context ).delay(delay).slideDown(1000);
+		}
+	}
+
 	Drupal.behaviors.facebook = {
 		attach: function( context , settings) {
 			window.fbAsyncInit = function() {

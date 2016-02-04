@@ -73,6 +73,19 @@
  * @ingroup themeable
  */
 ?>
+<!-- Billboard -->
+<section class="billboard hidden-xs">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="billboard-wrapper center-block">
+          <img src="/sites/all/themes/seatheme/images/ads/langham/langham-billboard-01.jpg" alt="" class="img-responsive">
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- ./ Billboard -->
+
 <!-- Top Header -->
 <section id="top-header">
   <div class="container">

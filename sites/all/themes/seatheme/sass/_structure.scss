@@ -2,6 +2,20 @@ body {
 	background: $backgroundColor;
 }
 
+.billboard {
+	background: #fafafa;
+	padding: 20px 0;
+	.billboard-wrapper {
+		width: 970px;
+	}
+}
+
+body.front {
+	.billboard {
+		display: none;
+	}
+}
+
 #top-header {
 	min-height: 20px;
 }
